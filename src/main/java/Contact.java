@@ -1,4 +1,3 @@
-
 public class Contact {
 	private String name;
 	
@@ -7,11 +6,11 @@ public class Contact {
 			if (name.length() >= 3 && name.length()<=40){
 				this.name = name;
 			}else{
-				System.out.println("Erreur : la taille du nom est inferieur a 3 ou supérieur a 40 ");
+				System.out.println("Erreur : la taille du nom est inferieur a 3 ou supÃ©rieur a 40 ");
 			}
 		}
 		else{
-			System.out.println("Erreur : l'ojet est null ");
+			System.out.println("Erreur : l'objet est null ");
 		}
 	}
 	

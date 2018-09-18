@@ -64,7 +64,7 @@ public class ContactDao implements IContactDao {
 					contacts.remove(contact);
 				}
 				else{
-					System.out.println("Le contact n'éxiste pas");
+					System.out.println("Le contact n'existe pas");
 				}
 			}
 			
